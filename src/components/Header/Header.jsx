@@ -7,11 +7,11 @@ const Header = () => {
         <h2> SIN EXCUSAS </h2>
         <h1>
           {" "}
-          <span>LO ÚNICO LÍMITE ERES</span> TU{" "}
+          <span>LO ÚNICO LÍMITE ERES</span> <br /> TU 
         </h1>
-        <p className='details'> GYM JESSY JUNIOR</p>
+        <p className='details'> MÁS QUE UN GIMNASIO, UNA FAMÍLIA </p>
         <div className="header-btns">
-          <a href="#" className="header-btn"> SUSCRIBIRSE </a>{" "}
+          <a href="http://wa.me/message/AGRVNKUMDIHAC1" target="_blank" className="header-btn">SUBSCRIBIRSE</a>{" "}
         </div>
       </div>
     </div>
