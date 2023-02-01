@@ -1,19 +1,9 @@
 # README
 <p align="center"> Essa é uma aplicação para a academia Gym Jessy Junior - Ñemby - PY </p>
-
-
-
 ---
 <br>
 
-<h4 align="center">
- 🚧 Em breve trarei meu portifólio/blog🚧...
-  </h4>
 
-### Features
-- [X] Criar Título
-- [X] Criar Descrição
-- [X] GIF's
 
 
 ### Prévia
