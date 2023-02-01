@@ -169,16 +169,16 @@ nav .menu-btn,
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./data/images/banner.png');
+    background-image: url('./data/images/banner1.jpg');
     position: relative;
     z-index: 0;
   }
   #main::before{
     position: absolute;
     content: "sasasas";
-    background: -moz-radial-gradient(center, ellipse cover, rgb(126, 23, 23) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(95, 22, 22) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: radial-gradient(ellipse at center, rgb(214, 18, 18) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(202, 76, 76) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(167, 36, 36) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at center, rgb(168, 24, 24) 0%, rgba(0, 0, 0, 0.6) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     top: 0;
     left: 0;
