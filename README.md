@@ -20,6 +20,7 @@
 
 <img alt="previa" src="./screen1.jpg" /> 
 <img alt="previa" src="./screen2.jpg" /> 
+<img alt="previa" src="./screen3.jpg" /> 
 
 
 <h1 align="center">
