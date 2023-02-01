@@ -470,7 +470,7 @@ nav .menu-btn,
 
 @media(max-width:970px){
 	#main{
-		height: 650px;
+		height: 500px;
 	}
 	.name{
 		left: 50%;
