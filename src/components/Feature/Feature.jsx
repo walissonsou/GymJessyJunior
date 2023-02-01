@@ -11,9 +11,9 @@ const Feature = ()  => {
     <h1> LO QUE OFRECEMOS </h1> 
     <div className='a-container'>
       <FeatureBox image={fimage1} title={'PLAN NUTRICIONAL'} descricao={'Nutri Christian'}/>
-      <FeatureBox image={fimage2} title={'ENTRENAMIENTO FUNCIONAL'} descricao={'PFS Junior, Cezar, Mendoza'}/>
-      <FeatureBox image={fimage3} title={'ENTRENAMIENTO PERSONALIZADO'} descricao={'PFS Junior, cezar'}/>
-      <FeatureBox image={fimage4} title={' CULTURISMO '} descricao={'PFS Junior, cezar'} />
+      <FeatureBox image={fimage2} title={'E.FUNCIONAL'} descricao={'PFS Junior, Cezar, Mendoza'}/>
+      <FeatureBox image={fimage3} title={'E.PERSONALIZADO'} descricao={'PFS Junior, cezar'}/>
+      <FeatureBox image={fimage4} title={'CULTURISMO'} descricao={'PFS Junior, cezar'} />
     </div>
     
     </div>
