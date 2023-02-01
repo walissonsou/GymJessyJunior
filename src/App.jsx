@@ -1,6 +1,7 @@
 
 import NavBar from './components/NavBar/NavBar'
 import Header from './components/Header/Header'
+import Feature from './components/Feature/Feature'
 import './style.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <NavBar />
      <Header />
+     <Feature />
     </div>
   )
 }
