@@ -4,6 +4,7 @@
 
 body{
     margin:0px;
+    
     padding: 0px;
     background-color: #000000;
     font-family: 'Chakra Petch', sans-serif;
@@ -119,7 +120,7 @@ nav .menu-btn,
 .header-btns{
     display: flex;
     margin-top: 40px;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 .header-btn{
 	width:160px;
@@ -132,6 +133,7 @@ nav .menu-btn,
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
+   
 }
 .header-btn:hover{
 	background-color: transparent;
@@ -142,14 +144,14 @@ nav .menu-btn,
 
 #features{
     width:100%;
-    height:120vh;
+    height:110vh;
     box-sizing: border-box;
     font-family: 'Chakra Petch', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 40px ;
+    padding-top: 5px ;
     background-color: #000000;
 }
 #features h1{
@@ -165,19 +167,19 @@ nav .menu-btn,
 }
 #main{
     width:100%;
-    height:768px;
+    height:888px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./data/images/banner1.jpg');
+    background-image: url('./data/images/banner3.jpg');
     position: relative;
     z-index: 0;
   }
   #main::before{
     position: absolute;
-    content: "sasasas";
+    content: "";
     background: -moz-radial-gradient(center, ellipse cover, rgb(202, 76, 76) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgb(167, 36, 36) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(245, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
     background: radial-gradient(ellipse at center, rgb(168, 24, 24) 0%, rgba(0, 0, 0, 0.6) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     top: 0;
@@ -254,7 +256,8 @@ nav .menu-btn,
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(images/offer.png);
+    
+    background-image: url('./data/images/banner2.jpg');
     text-align: center;
 }
 
@@ -286,6 +289,7 @@ nav .menu-btn,
 }
 .pr-btns{
     display: flex;
+    
     margin-top: 40px;
     margin-left: 35%;
 }
@@ -437,6 +441,8 @@ nav .menu-btn,
         font-size: 1.5rem;
     }
     .pr-heading h1{
+        display: FLEX;
+        justify-content: center;
         font-size: 3rem;
     }
     .pr-heading .details{
@@ -477,14 +483,16 @@ nav .menu-btn,
 		transform: translate(-50%,-50%);
 	}
 	.about-image{
-        display:none;
+        display: none;
     }
     .header-btn{
-        margin-left: 20%;
+        
         margin-top: 20px;
+        margin-left: 40%;
+        
     }
     .pr-btn{
-        margin-left: 20%;
+        margin-left: 35%;
         margin-top: 20px;
     }
 	#about{
