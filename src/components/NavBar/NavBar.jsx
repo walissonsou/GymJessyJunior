@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <nav className={nav ? "nav active" : "nav"}>
-      <Link to="/" className="logo">
+      <Link to="main" className="logo">
         <a href="#">
           {" "}
           <img src={logo1} alt="/" />{" "}
@@ -28,23 +28,23 @@ const NavBar = () => {
       <ul className="menu">
         <li>
           {" "}
-          <Link to="#"> Ínicio</Link>
+          <Link to="main"> Ínicio</Link>
         </li>
         <li>
           {" "}
-          <Link to="#"> Ubicacion</Link>
+          <Link to="features"> Ubicacion</Link>
         </li>
         <li>
           {" "}
-          <Link to="#"> Profes</Link>
+          <Link to="about"> Profes</Link>
         </li>
         <li>
           {" "}
-          <Link to="#"> La cancha </Link>
+          <Link to="about"> La cancha </Link>
         </li>
         <li>
           {" "}
-          <Link to="#"> Usteds </Link>
+          <Link to="presentaion"> Usteds </Link>
         </li>
       </ul>
     </nav>
