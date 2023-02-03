@@ -642,7 +642,7 @@ nav .menu-btn,
 .slide-container{
     width: 100%;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 840px;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -654,7 +654,7 @@ nav .menu-btn,
 .item{
     min-height:200px;
     min-width: 210px;
-    padding: 1px;
+    padding: 0;
 }
 
 .item img{
