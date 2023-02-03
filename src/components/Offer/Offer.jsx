@@ -8,7 +8,7 @@ export default function Offer() {
         <p className="details"></p>
         <div className="pr-btns">
           <a href="#" className="pr-btn">
-            CONOCENOS
+            LA CANCHA 
           </a>{" "}
           '
         </div>
