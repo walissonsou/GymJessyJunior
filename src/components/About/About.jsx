@@ -5,14 +5,10 @@ const About = () => {
     <div id="about">
      
       <div className="about-text">
-        <h1>LEARN MORE ABOUT US </h1>
+        <h1> CONOCENOS AHORA! </h1>
         <p>
           {" "}
-          website tutorial,react website portfolio,react website example,how to
-          make a website with react,react project,beginner react project,react
-          js,react website using styled components,react website responsive
-          tutorial,how to create a react website,build a react website,react
-          projec{" "}
+          Determinación y enfoque, este es el resultado de una mente sana. Pon una pizca de movimiento en tu vida y haz ejercicio. La fuerza no siempre gana, se necesita resiliencia. Coloca con cuidado la arandela sobre la barra porque hará tus sueños realidad.{" "}
         </p>
         <div className="pr-btns">
           <a href="#" className="pr-btn">
