@@ -36,15 +36,15 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="presentaion"> Profes</Link>
+          <Link to="presentaion"> Conocenos</Link>
+        </li>        
+        <li>
+          {" "}
+          <Link to="profes"> Staff </Link>
         </li>
         <li>
           {" "}
           <Link to="about"> Ubicacion </Link>
-        </li>
-        <li>
-          {" "}
-          <Link to="presentaion"> Conocenos </Link>
         </li>
       </ul>
     </nav>
