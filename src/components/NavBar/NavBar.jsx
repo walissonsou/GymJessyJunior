@@ -32,19 +32,19 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="features"> Ubicacion</Link>
+          <Link to="features"> Ofrecemos </Link>
         </li>
         <li>
           {" "}
-          <Link to="about"> Profes</Link>
+          <Link to="presentaion"> Profes</Link>
         </li>
         <li>
           {" "}
-          <Link to="about"> La cancha </Link>
+          <Link to="about"> Ubicacion </Link>
         </li>
         <li>
           {" "}
-          <Link to="presentaion"> Usteds </Link>
+          <Link to="presentaion"> Conocenos </Link>
         </li>
       </ul>
     </nav>
