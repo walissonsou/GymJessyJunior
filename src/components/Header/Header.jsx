@@ -7,7 +7,7 @@ const Header = () => {
         <h2> SIN EXCUSAS </h2>
         <h1>
           {" "}
-          <span>LO ÚNICO LÍMITE ERES</span> <br /> TU 
+          <span>EL ÚNICO LÍMITE ERES</span> <br /> TU 
         </h1>
         <p className='details'> MÁS QUE UN GIMNASIO, UNA FAMÍLIA </p>
         <div className="header-btns">
