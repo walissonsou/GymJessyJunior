@@ -13,9 +13,9 @@ const Feature = ()  => {
     <div className='a-container'>
       <FeatureBox image={fimage1} title={'PLAN NUTRICIONAL'} descricao={'Lic Nutri Christian'}/>
       <FeatureBox image={fimage2} title={'E.FUNCIONAL'} descricao={'PFS Manuel Jr, César Arce, Fabio Mendoza'}/>
-      <FeatureBox image={fimage3} title={'E.PERSONALIZADO'} descricao={'PFS Manuel Jr , César Arce'}/>
-      <FeatureBox image={fimage4} title={'MUSCULACIÓN'} descricao={'PFS Junior, César Arce'} />
-      <FeatureBox image={fimage5} title={'SPINNING'} descricao={'PFS Junior,César Arce'} />
+      <FeatureBox image={fimage3} title={'E.PERSONALIZADO'} descricao={'PFS Manuel Jr, César Arce'}/>
+      <FeatureBox image={fimage4} title={'MUSCULACIÓN'} descricao={'PFS Manuel Jr, César Arce'} />
+      <FeatureBox image={fimage5} title={'SPINNING'} descricao={'PFS Junior, César Arce'} />
     </div>
     
     </div>
