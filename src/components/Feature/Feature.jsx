@@ -5,6 +5,7 @@ import fimage2 from '../../data/images/2.svg'
 import fimage3 from '../../data/images/3.svg'
 import fimage4 from '../../data/images/4.svg'
 import fimage5 from '../../data/images/5.svg'
+import fimage6 from '../../data/images/6.svg'
 
 const Feature = ()  => {
   return (
@@ -16,6 +17,7 @@ const Feature = ()  => {
       <FeatureBox image={fimage3} title={'E.PERSONALIZADO'} descricao={'PFS Manuel Jr, César Arce'}/>
       <FeatureBox image={fimage4} title={'MUSCULACIÓN'} descricao={'PFS Manuel Jr, César Arce'} />
       <FeatureBox image={fimage5} title={'SPINNING'} descricao={'PFS Junior, César Arce'} />
+      <FeatureBox image={fimage6} title={'FISIOTERAPIA'} descricao={'Fisioterapia Hashimoto'} />
     </div>
     
     </div>
