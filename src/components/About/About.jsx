@@ -8,13 +8,16 @@ const About = () => {
         <h1> CONOCENOS </h1>
         <p>
           {" "}
-          Determinación y enfoque, este es el resultado de una mente sana. Pon
-          una pizca de movimiento en tu vida y haz ejercicio. La fuerza no
-          siempre gana, se necesita resiliencia. Coloca con cuidado la arandela
-          sobre la barra porque hará tus sueños realidad.{" "}
+          El Gimnasio Yessi Junior ha esta en la ciudad de Ñemby por más de 15
+            años.Por el mismo han pasado grandes figuras televisivas como
+            Larissa Riquelme, Dani Da rosa, Maricel Thomen, Luli Pereira, entre
+            muchos otros. Pero por sobre grandes figuras deportivas: Nelson
+            Cuevas, Roque Santa Cruz, Justo Villar, Victor Ferreira, Ever
+            Almeida, Hugo Luzardi,Ramón Cardozo, Denis Caniza entre varios
+            atletas.{" "}{" "}
         </p>
         
-        <Button title={'CONOCENOS'} href={'#'} />
+        {/* <Button title={'CONOCENOS'} href={'#'} /> */}
       </div>
     </div>
   );
