@@ -7,7 +7,7 @@ import profe3 from "../../data/images/profe3.jpg";
 import profe4 from "../../data/images/profe4.jpg";
 import profe5 from "../../data/images/profe5.jpg";
 
-const images = [profe1, profe2, profe3, profe4, profe5];
+const images = [profe2,profe1,profe3, profe4, profe5, profe2];
 
 const Profes = () => {
   const carousel = useRef();
