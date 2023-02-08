@@ -5,6 +5,8 @@ import Feature from './components/Feature/Feature'
 import Offer from './components/Offer/Offer'
 import About from './components/About/About'
 import Profes from './components/Profes/Profes'
+import Footer from './components/Footer/Footer'
+
 import './style.css'
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
      <Offer />
      <About />
      <Profes />
+     <Footer />
     </div>
   )
 }
