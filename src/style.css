@@ -118,8 +118,7 @@ nav .menu-btn,
 	color:#ffffff;
 }
 .header-btns{
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     align-items: center;
     margin-top: 40px;
@@ -306,6 +305,7 @@ nav .menu-btn,
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
+    position: absolute;
 }
 .pr-btn:hover{
 	background-color: transparent;
@@ -552,6 +552,10 @@ nav .menu-btn,
         }
         .pr-btns{
             margin: 0;
+            margin: 0;        
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .menu{
             display:none;
