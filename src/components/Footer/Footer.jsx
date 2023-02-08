@@ -10,7 +10,7 @@ import {
 } from "react-icons/ti";
 const Footer = () => {
   return (
-    <div className="footer" style={{ color: "white" }}>
+    <div className="footer" id="footer" style={{ color: "white" }}>
       <div className="footer_box">
         <div className="footer_box_social">
           <Link to="main" className="logo">
@@ -30,10 +30,10 @@ const Footer = () => {
             atletas.{" "}
           </p>
           <div className="footer_social">
-            <a href="#">
+            <a href="https://www.facebook.com/GimnasioYessiJunior/"  target="_blank">
               <TiSocialFacebook  />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/gym_jessyjunior/" target="_blank">
               <TiSocialInstagram />
             </a>
             <a href="#">

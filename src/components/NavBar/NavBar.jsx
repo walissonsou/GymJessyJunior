@@ -36,7 +36,7 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="presentaion"> Conocenos</Link>
+          <Link to="about"> Conocenos</Link>
         </li>        
         <li>
           {" "}
@@ -44,7 +44,7 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="about"> Ubicacion </Link>
+          <Link to="footer"> Ubicacion </Link>
         </li>
       </ul>
     </nav>
