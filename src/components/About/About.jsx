@@ -1,4 +1,5 @@
 import React from "react";
+import Button from '../Button/Button'
 import aboutimage from "../../data/images/about.png";
 const About = () => {
   return (
@@ -12,11 +13,8 @@ const About = () => {
           siempre gana, se necesita resiliencia. Coloca con cuidado la arandela
           sobre la barra porque hará tus sueños realidad.{" "}
         </p>
-        <div className="pr-btns">
-          <a href="#" className="pr-btn">
-            CONOCENOS
-          </a>
-        </div>
+        
+        <Button title={'CONOCENOS'} href={'#'} />
       </div>
     </div>
   );

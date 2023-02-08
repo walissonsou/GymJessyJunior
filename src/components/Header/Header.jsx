@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from '../Button/Button'
 const Header = () => {
   return (
     <div id='main'>
@@ -10,9 +10,8 @@ const Header = () => {
           <span>EL ÚNICO LÍMITE ERES</span> <br /> TU 
         </h1>
         <p className='details'> MÁS QUE UN GIMNASIO, UNA FAMÍLIA </p>
-        <div className="header-btns">
-          <a href="http://wa.me/message/AGRVNKUMDIHAC1" target="_blank" className="header-btn">SUBSCRIBIRSE</a>{" "}
-        </div>
+        
+        <Button title={'SUBSCRIBIRSE'} href={'http://wa.me/message/AGRVNKUMDIHAC1'} />
       </div>
     </div>
   );
