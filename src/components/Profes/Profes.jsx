@@ -13,7 +13,7 @@ const Profes = () => {
   const carousel = useRef();
   const [width, setWidth] = useState(0);
   useEffect(() => {
-    console.log(carousel.current);
+   
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
   }, []);
 
