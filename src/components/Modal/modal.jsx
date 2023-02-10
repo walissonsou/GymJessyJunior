@@ -43,14 +43,14 @@ export default function Modal({ isOpen, children, setOpenModal }) {
               <label> NOMBRE *</label>
               <input type="text" required />
               <label> TELÉFONO * </label>
-              <input type="text" placeholder="123-45-678"/>
+              <input type="text" placeholder="123-45-678" required/>
               <labe> SEXO  </labe>
               <select id="estado" name="estado">
                 <option value="SP">MAS</option>
                 <option value="RJ">FEM</option>
               </select>
               <label> SERVICIO DESEADO * </label>
-              <select id="estado" name="estado">
+              <select id="estado" name="estado" required>
                 <option value="FUNCIONAL">FUNCIONAL</option>
                 <option value="FUNCIONAL">FUNCIONAL</option>{" "}
                 <option value="FUNCIONAL">FUNCIONAL</option>{" "}
@@ -58,7 +58,7 @@ export default function Modal({ isOpen, children, setOpenModal }) {
                 <option value="FUNCIONAL">FUNCIONAL</option>
               </select>
               <label> FECHA DE NACIMIENTO * </label>
-              <input type="date" />
+              <input type="date" required />
               <label> OBSERVACIÓN </label>
               <input></input>
               <button type="submit" className="header-bttn">
