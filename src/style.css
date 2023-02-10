@@ -776,3 +776,6 @@ nav .menu-btn,
   cursor: pointer;
   font-family:  "Chakra Petch", sans-serif;
 }
+.closed-button{
+  cursor:pointer;
+}

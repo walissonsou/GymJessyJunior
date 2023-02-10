@@ -1,5 +1,6 @@
 import React from "react";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BACKGROUND_STYLE = {
   position: 'absolute',
@@ -9,6 +10,7 @@ const BACKGROUND_STYLE = {
   right: "0",
   backgroundColor: "rgb(0,0,0,0.7)",
   zIndex: "10000000",
+
 };
 const MODAL_STYLE = {
   position: "fixed",
@@ -29,6 +31,12 @@ const STYLE_BUTTON = {
 };
 
 export default function Modal({ isOpen, children, setOpenModal }) {
+  const showToastMessage = () => {
+    toast.success('Success Notification !', {
+        position: toast.POSITION.TOP_RIGHT
+    });
+};
+  
   if (isOpen) {
     return (
       <div style={BACKGROUND_STYLE}>
@@ -44,7 +52,7 @@ export default function Modal({ isOpen, children, setOpenModal }) {
               <input type="text" required />
               <label> TELÉFONO * </label>
               <input type="text" placeholder="123-45-678" required/>
-              <labe> SEXO  </labe>
+              <label> SEXO  </label>
               <select id="estado" name="estado">
                 <option value="SP">MAS</option>
                 <option value="RJ">FEM</option>
@@ -61,12 +69,13 @@ export default function Modal({ isOpen, children, setOpenModal }) {
               <input type="date" required />
               <label> OBSERVACIÓN </label>
               <input></input>
-              <button type="submit" className="header-bttn">
+              <button type="submit" className="header-bttn" onClick={() => showToastMessage()} >
                 {" "}
                 ENVIAR{" "}
               </button>
             </form>
           </div>
+          <ToastContainer />
         </div>
         ;
       </div>
