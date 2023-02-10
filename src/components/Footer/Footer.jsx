@@ -74,9 +74,7 @@ const Footer = () => {
             <h3> Ubicacion </h3> Calle Santa Rosa y 10 de agosto, Nemby,
             Paraguay
           </div>
-          <div className="subscribe_box">
-            <input type="email" placeholder="Enter your email" />
-          </div>
+         
           <div className="subscribe_box_info">
             <p>Horarios: Lunes - Viernes (7:30hs a 12hs) (14hs a 21hs)</p>
           </div>
