@@ -120,6 +120,7 @@ nav .menu-btn,
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  cursor: pointer;
 }
 .header-btn {
   width: 160px;
@@ -131,12 +132,13 @@ nav .menu-btn,
   background-color: #ff1414;
   box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
   border-radius: 5px;
-  color: #ffffff;
+  color: #fff7f7;
+  cursor: pointer;
 }
 .header-btn:hover {
   background-color: transparent;
   transition: all ease 0.5s;
-  color: #ffffff;
+  color: #010101;
   border: 2px solid #ff1414;
 }
 
@@ -516,7 +518,6 @@ nav .menu-btn,
     flex-direction: column;
     padding-top: 0px;
     text-align: center;
-
     margin-top: 0px;
   }
   .about-text {
@@ -741,4 +742,37 @@ nav .menu-btn,
     width: 90%;
     grid-template-columns: 1fr;
   }
+}
+.form{
+  display: flex;
+
+ 
+  justify-content: center;
+  flex-direction: column;
+ gap: 4px;
+}
+.form label {
+  font-family:  "Chakra Petch", sans-serif;
+  font-size: 1.4rem
+}
+.form input{
+  color: black;
+  gap: 10px;
+  background-color: rgb(122, 113, 113);
+  border-radius: 2px;
+  width: 300px;
+  height: 35px;
+}
+.form .header-bttn{
+  width: 100%;
+  height: 35px; 
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #ff1414;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 2px;
+  color: #fff7f7;
+  cursor: pointer;
+  font-family:  "Chakra Petch", sans-serif;
 }
