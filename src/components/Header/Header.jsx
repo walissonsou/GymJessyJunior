@@ -5,7 +5,7 @@ import Modal from "../Modal/modal";
 const Header = () => {
 
   const [openModal, setOpenModal] = useState(false);
-
+  
   return (
     <div id="main">
       <div className="name">

@@ -777,5 +777,15 @@ nav .menu-btn,
   font-family:  "Chakra Petch", sans-serif;
 }
 .closed-button{
-  cursor:pointer;
+  width: 10%;
+  height: 35px; 
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #ff1414;
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  border-radius: 2px;
+  color: #fff7f7;
+  cursor: pointer;
+  font-family:  "Chakra Petch", sans-serif;
 }
